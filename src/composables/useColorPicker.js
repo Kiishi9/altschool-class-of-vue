@@ -1,4 +1,4 @@
-import { ref, onMounted } from "@vue/composition-api";
+import { ref, onMounted } from "vue";
 
 export const useColorPicker = () => {
   const colors = ["green", "red", "blue", "purple"];
